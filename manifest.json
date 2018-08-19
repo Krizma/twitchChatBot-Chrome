@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "Twitch Chat Bot",
+	"description": "Chat bot intended for idling chats on twitch.tv. This is for if the chat room has some sort of reward system it will auto type in chat every 9.5 minutes. That is based on timing for the Mikuia bot. In the first version of this app that will be hard coded and if there are future releases it will have a selection for you to use.",
+	"version": "0.1a",
+	"icons": {"128": "icon_128.png"},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html",
+	},
+	"permissions": ["activeTab"],	
+}
