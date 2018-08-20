@@ -6,28 +6,95 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> Twitch Chat Bot</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
-	<style>
-	html, body {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 14px;
-		margin: 0;
-		min-height: 180px;
-		padding: 0;
-
-	}
-	</style>
+	<script src="popup.js"></script>
+		<style>
+		html, body {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 14px;
+			padding: 0;		
+	
+		}
+	
+		h1 {
+			font-family: 'menlo', monospace;
+			font-size: 22px;
+			font-weight: 400,
+			#margin: 0;
+			color: #2f5876;
+					
+		}
+		h2 {
+			font-family: 'menlo', monospace;
+			font-size: 22px;
+			font-weight: 400,
+			margin: 0;
+			color: #2f5876;
+		}
+	
+		a:link, a:visited {
+			color: black;
+			outline: 0;
+			text-decoration: none;
+		}
+		img {
+			#width: 128px;
+			#position: relative;
+			#left: 25%;
+			
+			
+		}
+		.modal-header {
+			align-items: center;
+			border-bottom: 0.5px solid #dadada;
+		}
+		.modal-content{
+			padding: 0 22px;
+		}
+		.version {
+	
+		}
+		.btn{
+			background-color: white;
+			cursor: pointer;
+			size: 128px;
+			
+			border: 0;
+		}
+		.btn:hover{	
+			border: 0;
+		}
+		.btn:active {
+			position: relative;
+			top: 1px;
+			border: 0;
+			outline: 0;
+			
+		}
+		.btn:focus{
+			outline: 0;
+		}
+		</style>
 
 </head>
 <body>
 	<div class="modal-header">
 		<h1 class="logo">
-			<img src="images/off_128.png" alt="Off Logo" class="logo-icon">Twitch Chat Bot
-			Launcher <span class="version">(0.1a)</span>
+			<button class=btn><img src="images/off_128.png" id="01" class="logo-icon">
+			</button>
 		</h1>
+		<h2>
+				Twitch Chat Bot
+				Launcher <span class="version">(0.1a)</span>
+		</h2>
 	</div>
 	<div class="modal-content">
-		<p>Easily start twitch autochat bot</p>
+		<p>1. Start script by clicking red twitch logo while on a twitch page </p>
+		   <p>2. Place blinking cursor in chat box </p>
+		   <p>3. Wait a few seconds for it to start typing</p>
+		
 	</div>
+
+	
 </body>
 </html
 	
