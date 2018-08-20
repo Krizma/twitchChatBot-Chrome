@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             function bot() {
                 var array = ["gmohnDab", "garzDab", "steelKappa", "PepePls", "Jebaited", "BootyTime", "POGGERS", "LuL", "garzHaHAA" , "steelREALLY", "steelO", "garzOH", "ZreknarF", "BibleThump", "steelSalt", "steelGrin", "steelWOO", "steelDank", "garzW", "TTours", "KappaPride", "riPepperonis", "TriHard", "KKomrade", "steel4"];
-                consol.log(array);
+                console.log(array);
 
 
 
